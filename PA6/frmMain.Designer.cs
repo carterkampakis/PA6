@@ -1,6 +1,6 @@
 ﻿namespace PA6
 {
-    partial class frmCWID
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // frmCWID
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(27F, 54F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 784);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.Name = "frmCWID";
-            this.Text = "CWID";
+            this.Name = "frmMain";
+            this.Text = "frmMain";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
 
         }
@@ -46,4 +47,3 @@
         #endregion
     }
 }
-

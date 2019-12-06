@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace PA6
 {
-    public partial class frmCWID : Form
+    public partial class frmMain : Form
     {
-        public frmCWID()
+        string cwid;
+        public frmMain(string tempCwid)
         {
+            this.cwid = tempCwid;
             InitializeComponent();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
