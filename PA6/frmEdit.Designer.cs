@@ -53,7 +53,7 @@
             // 
             this.lengthtxt.Location = new System.Drawing.Point(101, 643);
             this.lengthtxt.Name = "lengthtxt";
-            this.lengthtxt.Size = new System.Drawing.Size(175, 49);
+            this.lengthtxt.Size = new System.Drawing.Size(175, 28);
             this.lengthtxt.TabIndex = 26;
             this.lengthtxt.TextChanged += new System.EventHandler(this.lengthtxt_TextChanged);
             // 
@@ -62,7 +62,7 @@
             this.lengthlbl.AutoSize = true;
             this.lengthlbl.Location = new System.Drawing.Point(93, 598);
             this.lengthlbl.Name = "lengthlbl";
-            this.lengthlbl.Size = new System.Drawing.Size(133, 42);
+            this.lengthlbl.Size = new System.Drawing.Size(68, 24);
             this.lengthlbl.TabIndex = 25;
             this.lengthlbl.Text = "Length";
             this.lengthlbl.Click += new System.EventHandler(this.lengthlbl_Click);
@@ -71,7 +71,7 @@
             // 
             this.isbntxt.Location = new System.Drawing.Point(101, 546);
             this.isbntxt.Name = "isbntxt";
-            this.isbntxt.Size = new System.Drawing.Size(175, 49);
+            this.isbntxt.Size = new System.Drawing.Size(175, 28);
             this.isbntxt.TabIndex = 24;
             this.isbntxt.TextChanged += new System.EventHandler(this.isbntxt_TextChanged);
             // 
@@ -80,7 +80,7 @@
             this.isbnlbl.AutoSize = true;
             this.isbnlbl.Location = new System.Drawing.Point(93, 501);
             this.isbnlbl.Name = "isbnlbl";
-            this.isbnlbl.Size = new System.Drawing.Size(104, 42);
+            this.isbnlbl.Size = new System.Drawing.Size(52, 24);
             this.isbnlbl.TabIndex = 23;
             this.isbnlbl.Text = "ISBN";
             this.isbnlbl.Click += new System.EventHandler(this.isbnlbl_Click);
@@ -89,7 +89,7 @@
             // 
             this.copiestxt.Location = new System.Drawing.Point(101, 449);
             this.copiestxt.Name = "copiestxt";
-            this.copiestxt.Size = new System.Drawing.Size(175, 49);
+            this.copiestxt.Size = new System.Drawing.Size(175, 28);
             this.copiestxt.TabIndex = 22;
             this.copiestxt.TextChanged += new System.EventHandler(this.copiestxt_TextChanged);
             // 
@@ -98,7 +98,7 @@
             this.copieslbl.AutoSize = true;
             this.copieslbl.Location = new System.Drawing.Point(94, 407);
             this.copieslbl.Name = "copieslbl";
-            this.copieslbl.Size = new System.Drawing.Size(207, 42);
+            this.copieslbl.Size = new System.Drawing.Size(105, 24);
             this.copieslbl.TabIndex = 21;
             this.copieslbl.Text = "Copies Avl.";
             this.copieslbl.Click += new System.EventHandler(this.copieslbl_Click);
@@ -107,7 +107,7 @@
             // 
             this.authortxt.Location = new System.Drawing.Point(101, 277);
             this.authortxt.Name = "authortxt";
-            this.authortxt.Size = new System.Drawing.Size(175, 49);
+            this.authortxt.Size = new System.Drawing.Size(175, 28);
             this.authortxt.TabIndex = 20;
             this.authortxt.TextChanged += new System.EventHandler(this.authortxt_TextChanged);
             // 
@@ -116,7 +116,7 @@
             this.authorlbl.AutoSize = true;
             this.authorlbl.Location = new System.Drawing.Point(110, 242);
             this.authorlbl.Name = "authorlbl";
-            this.authorlbl.Size = new System.Drawing.Size(128, 42);
+            this.authorlbl.Size = new System.Drawing.Size(66, 24);
             this.authorlbl.TabIndex = 19;
             this.authorlbl.Text = "Author";
             this.authorlbl.Click += new System.EventHandler(this.authorlbl_Click);
@@ -125,7 +125,7 @@
             // 
             this.genretxt.Location = new System.Drawing.Point(100, 365);
             this.genretxt.Name = "genretxt";
-            this.genretxt.Size = new System.Drawing.Size(175, 49);
+            this.genretxt.Size = new System.Drawing.Size(175, 28);
             this.genretxt.TabIndex = 18;
             this.genretxt.TextChanged += new System.EventHandler(this.genretxt_TextChanged);
             // 
@@ -134,7 +134,7 @@
             this.genrelbl.AutoSize = true;
             this.genrelbl.Location = new System.Drawing.Point(94, 320);
             this.genrelbl.Name = "genrelbl";
-            this.genrelbl.Size = new System.Drawing.Size(122, 42);
+            this.genrelbl.Size = new System.Drawing.Size(63, 24);
             this.genrelbl.TabIndex = 17;
             this.genrelbl.Text = "Genre";
             this.genrelbl.Click += new System.EventHandler(this.genrelbl_Click);
@@ -143,7 +143,7 @@
             // 
             this.titlebox.Location = new System.Drawing.Point(100, 190);
             this.titlebox.Name = "titlebox";
-            this.titlebox.Size = new System.Drawing.Size(175, 49);
+            this.titlebox.Size = new System.Drawing.Size(175, 28);
             this.titlebox.TabIndex = 16;
             this.titlebox.TextChanged += new System.EventHandler(this.titlebox_TextChanged);
             // 
@@ -152,7 +152,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(94, 287);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 42);
+            this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 15;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -161,7 +161,7 @@
             this.titletxt.AutoSize = true;
             this.titletxt.Location = new System.Drawing.Point(94, 148);
             this.titletxt.Name = "titletxt";
-            this.titletxt.Size = new System.Drawing.Size(88, 42);
+            this.titletxt.Size = new System.Drawing.Size(45, 24);
             this.titletxt.TabIndex = 14;
             this.titletxt.Text = "Title";
             this.titletxt.Click += new System.EventHandler(this.titletxt_Click);
@@ -170,15 +170,16 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(100, 741);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 49);
+            this.textBox1.Size = new System.Drawing.Size(175, 28);
             this.textBox1.TabIndex = 28;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtCoverDate
             // 
             this.txtCoverDate.AutoSize = true;
             this.txtCoverDate.Location = new System.Drawing.Point(92, 696);
             this.txtCoverDate.Name = "txtCoverDate";
-            this.txtCoverDate.Size = new System.Drawing.Size(165, 42);
+            this.txtCoverDate.Size = new System.Drawing.Size(83, 24);
             this.txtCoverDate.TabIndex = 27;
             this.txtCoverDate.Text = "CoverUrl";
             // 
@@ -189,6 +190,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(331, 300);
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnSave
             // 
@@ -207,12 +209,13 @@
             this.btnClose.TabIndex = 31;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmEdit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(22F, 42F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1467, 1144);
+            this.ClientSize = new System.Drawing.Size(1467, 1078);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.pictureBox1);

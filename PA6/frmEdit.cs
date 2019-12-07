@@ -21,6 +21,7 @@ namespace PA6
             cwid = tempcwid;
             mode = tempMode;
             InitializeComponent();
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void booklist_SelectedIndexChanged(object sender, EventArgs e)
@@ -95,7 +96,34 @@ namespace PA6
 
         private void frmEdit_Load(object sender, EventArgs e)
         {
+            if(mode=="edit")
+            {
+                titlebox.Text = myBook.title;
+                authortxt.Text = myBook.author;
+                genretxt.Text = myBook.genre;
+                copiestxt.Text = myBook.copies.ToString();
+                isbntxt.Text = myBook.isbn;
+                textBox1.Text = myBook.cover;
+                lengthtxt.Text = myBook.length.ToString();
 
+                pictureBox1.Load(myBook.cover);
+
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
