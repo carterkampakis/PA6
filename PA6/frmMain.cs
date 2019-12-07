@@ -107,7 +107,7 @@ namespace PA6
         private void booklist_SelectedIndexChanged(object sender, EventArgs e)
         {
             Book myBook = (Book)booklist.SelectedItem;
-            titletxt.Text = myBook.title;
+            titlebox.Text = myBook.title;
             authortxt.Text = myBook.author;
             genretxt.Text = myBook.genre;
             isbntxt.Text = myBook.isbn;
