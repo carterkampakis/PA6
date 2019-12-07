@@ -60,7 +60,7 @@
             // lengthlbl
             // 
             this.lengthlbl.AutoSize = true;
-            this.lengthlbl.Location = new System.Drawing.Point(93, 598);
+            this.lengthlbl.Location = new System.Drawing.Point(97, 616);
             this.lengthlbl.Name = "lengthlbl";
             this.lengthlbl.Size = new System.Drawing.Size(68, 24);
             this.lengthlbl.TabIndex = 25;
@@ -78,7 +78,7 @@
             // isbnlbl
             // 
             this.isbnlbl.AutoSize = true;
-            this.isbnlbl.Location = new System.Drawing.Point(93, 501);
+            this.isbnlbl.Location = new System.Drawing.Point(97, 519);
             this.isbnlbl.Name = "isbnlbl";
             this.isbnlbl.Size = new System.Drawing.Size(52, 24);
             this.isbnlbl.TabIndex = 23;
@@ -96,7 +96,7 @@
             // copieslbl
             // 
             this.copieslbl.AutoSize = true;
-            this.copieslbl.Location = new System.Drawing.Point(94, 407);
+            this.copieslbl.Location = new System.Drawing.Point(97, 422);
             this.copieslbl.Name = "copieslbl";
             this.copieslbl.Size = new System.Drawing.Size(105, 24);
             this.copieslbl.TabIndex = 21;
@@ -105,7 +105,7 @@
             // 
             // authortxt
             // 
-            this.authortxt.Location = new System.Drawing.Point(101, 277);
+            this.authortxt.Location = new System.Drawing.Point(100, 283);
             this.authortxt.Name = "authortxt";
             this.authortxt.Size = new System.Drawing.Size(175, 28);
             this.authortxt.TabIndex = 20;
@@ -114,7 +114,7 @@
             // authorlbl
             // 
             this.authorlbl.AutoSize = true;
-            this.authorlbl.Location = new System.Drawing.Point(110, 242);
+            this.authorlbl.Location = new System.Drawing.Point(97, 256);
             this.authorlbl.Name = "authorlbl";
             this.authorlbl.Size = new System.Drawing.Size(66, 24);
             this.authorlbl.TabIndex = 19;
@@ -132,7 +132,7 @@
             // genrelbl
             // 
             this.genrelbl.AutoSize = true;
-            this.genrelbl.Location = new System.Drawing.Point(94, 320);
+            this.genrelbl.Location = new System.Drawing.Point(96, 338);
             this.genrelbl.Name = "genrelbl";
             this.genrelbl.Size = new System.Drawing.Size(63, 24);
             this.genrelbl.TabIndex = 17;
@@ -159,7 +159,7 @@
             // titletxt
             // 
             this.titletxt.AutoSize = true;
-            this.titletxt.Location = new System.Drawing.Point(94, 148);
+            this.titletxt.Location = new System.Drawing.Point(97, 163);
             this.titletxt.Name = "titletxt";
             this.titletxt.Size = new System.Drawing.Size(45, 24);
             this.titletxt.TabIndex = 14;
@@ -177,11 +177,12 @@
             // txtCoverDate
             // 
             this.txtCoverDate.AutoSize = true;
-            this.txtCoverDate.Location = new System.Drawing.Point(92, 696);
+            this.txtCoverDate.Location = new System.Drawing.Point(97, 714);
             this.txtCoverDate.Name = "txtCoverDate";
-            this.txtCoverDate.Size = new System.Drawing.Size(83, 24);
+            this.txtCoverDate.Size = new System.Drawing.Size(101, 24);
             this.txtCoverDate.TabIndex = 27;
-            this.txtCoverDate.Text = "CoverUrl";
+            this.txtCoverDate.Text = "Cover URL";
+            this.txtCoverDate.Click += new System.EventHandler(this.txtCoverDate_Click);
             // 
             // pictureBox1
             // 
@@ -198,8 +199,9 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(149, 108);
             this.btnSave.TabIndex = 30;
-            this.btnSave.Text = "save";
+            this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 

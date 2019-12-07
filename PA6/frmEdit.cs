@@ -125,5 +125,28 @@ namespace PA6
         {
             this.Close();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            myBook.title = titlebox.Text;
+            myBook.author = authortxt.Text;
+            myBook.genre = genretxt.Text;
+            myBook.copies = int.Parse(copiestxt.Text);
+            myBook.isbn = isbntxt.Text;
+            myBook.cover = textBox1.Text;
+            myBook.length = int.Parse(lengthtxt.Text);
+            myBook.cwid = cwid;
+
+            BookFile.SaveBook(myBook, cwid, mode);
+
+            MessageBox.Show("Content was Saved.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            this.Close();
+        }
+
+        private void txtCoverDate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
