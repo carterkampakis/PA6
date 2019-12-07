@@ -57,7 +57,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(384, 128);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 33);
+            this.label1.Size = new System.Drawing.Size(0, 44);
             this.label1.TabIndex = 1;
             // 
             // titletxt
@@ -65,7 +65,7 @@
             this.titletxt.AutoSize = true;
             this.titletxt.Location = new System.Drawing.Point(384, 11);
             this.titletxt.Name = "titletxt";
-            this.titletxt.Size = new System.Drawing.Size(71, 33);
+            this.titletxt.Size = new System.Drawing.Size(93, 44);
             this.titletxt.TabIndex = 0;
             this.titletxt.Text = "Title";
             // 
@@ -73,14 +73,14 @@
             // 
             this.titlebox.Location = new System.Drawing.Point(390, 47);
             this.titlebox.Name = "titlebox";
-            this.titlebox.Size = new System.Drawing.Size(175, 39);
+            this.titlebox.Size = new System.Drawing.Size(175, 50);
             this.titlebox.TabIndex = 2;
             // 
             // genretxt
             // 
             this.genretxt.Location = new System.Drawing.Point(390, 206);
             this.genretxt.Name = "genretxt";
-            this.genretxt.Size = new System.Drawing.Size(175, 39);
+            this.genretxt.Size = new System.Drawing.Size(175, 50);
             this.genretxt.TabIndex = 4;
             // 
             // genrelbl
@@ -88,7 +88,7 @@
             this.genrelbl.AutoSize = true;
             this.genrelbl.Location = new System.Drawing.Point(384, 170);
             this.genrelbl.Name = "genrelbl";
-            this.genrelbl.Size = new System.Drawing.Size(96, 33);
+            this.genrelbl.Size = new System.Drawing.Size(126, 44);
             this.genrelbl.TabIndex = 3;
             this.genrelbl.Text = "Genre";
             // 
@@ -96,7 +96,7 @@
             // 
             this.authortxt.Location = new System.Drawing.Point(390, 128);
             this.authortxt.Name = "authortxt";
-            this.authortxt.Size = new System.Drawing.Size(175, 39);
+            this.authortxt.Size = new System.Drawing.Size(175, 50);
             this.authortxt.TabIndex = 6;
             // 
             // authorlbl
@@ -104,7 +104,7 @@
             this.authorlbl.AutoSize = true;
             this.authorlbl.Location = new System.Drawing.Point(384, 92);
             this.authorlbl.Name = "authorlbl";
-            this.authorlbl.Size = new System.Drawing.Size(100, 33);
+            this.authorlbl.Size = new System.Drawing.Size(132, 44);
             this.authorlbl.TabIndex = 5;
             this.authorlbl.Text = "Author";
             this.authorlbl.Click += new System.EventHandler(this.label3_Click);
@@ -113,7 +113,7 @@
             // 
             this.copiestxt.Location = new System.Drawing.Point(390, 284);
             this.copiestxt.Name = "copiestxt";
-            this.copiestxt.Size = new System.Drawing.Size(175, 39);
+            this.copiestxt.Size = new System.Drawing.Size(175, 50);
             this.copiestxt.TabIndex = 8;
             this.copiestxt.TextChanged += new System.EventHandler(this.copiestxt_TextChanged);
             // 
@@ -122,7 +122,7 @@
             this.copieslbl.AutoSize = true;
             this.copieslbl.Location = new System.Drawing.Point(384, 248);
             this.copieslbl.Name = "copieslbl";
-            this.copieslbl.Size = new System.Drawing.Size(163, 33);
+            this.copieslbl.Size = new System.Drawing.Size(212, 44);
             this.copieslbl.TabIndex = 7;
             this.copieslbl.Text = "Copies Avl.";
             // 
@@ -130,7 +130,7 @@
             // 
             this.isbntxt.Location = new System.Drawing.Point(390, 362);
             this.isbntxt.Name = "isbntxt";
-            this.isbntxt.Size = new System.Drawing.Size(175, 39);
+            this.isbntxt.Size = new System.Drawing.Size(175, 50);
             this.isbntxt.TabIndex = 10;
             // 
             // isbnlbl
@@ -138,7 +138,7 @@
             this.isbnlbl.AutoSize = true;
             this.isbnlbl.Location = new System.Drawing.Point(384, 326);
             this.isbnlbl.Name = "isbnlbl";
-            this.isbnlbl.Size = new System.Drawing.Size(82, 33);
+            this.isbnlbl.Size = new System.Drawing.Size(107, 44);
             this.isbnlbl.TabIndex = 9;
             this.isbnlbl.Text = "ISBN";
             // 
@@ -146,7 +146,7 @@
             // 
             this.lengthtxt.Location = new System.Drawing.Point(390, 440);
             this.lengthtxt.Name = "lengthtxt";
-            this.lengthtxt.Size = new System.Drawing.Size(175, 39);
+            this.lengthtxt.Size = new System.Drawing.Size(175, 50);
             this.lengthtxt.TabIndex = 12;
             // 
             // lengthlbl
@@ -154,7 +154,7 @@
             this.lengthlbl.AutoSize = true;
             this.lengthlbl.Location = new System.Drawing.Point(384, 404);
             this.lengthlbl.Name = "lengthlbl";
-            this.lengthlbl.Size = new System.Drawing.Size(103, 33);
+            this.lengthlbl.Size = new System.Drawing.Size(136, 44);
             this.lengthlbl.TabIndex = 11;
             this.lengthlbl.Text = "Length";
             this.lengthlbl.Click += new System.EventHandler(this.lengthlbl_Click);
@@ -162,11 +162,12 @@
             // booklist
             // 
             this.booklist.FormattingEnabled = true;
-            this.booklist.ItemHeight = 32;
+            this.booklist.ItemHeight = 44;
             this.booklist.Location = new System.Drawing.Point(12, 14);
             this.booklist.Name = "booklist";
-            this.booklist.Size = new System.Drawing.Size(362, 452);
+            this.booklist.Size = new System.Drawing.Size(362, 444);
             this.booklist.TabIndex = 13;
+            this.booklist.SelectedIndexChanged += new System.EventHandler(this.booklist_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
@@ -237,7 +238,7 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(22F, 44F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 537);
             this.Controls.Add(this.Closebtn);
