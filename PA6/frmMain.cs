@@ -50,21 +50,52 @@ namespace PA6
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Book myBook = (Book)booklist.SelectedItem;
 
+            myBook.copies--;
+            BookFile.SaveBook(myBook, cwid, "edit");
+            LoadList();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            Book myBook = new Book();
+            frmEdit myForm = new frmEdit(myBook, "new", cwid);
+            if (myForm.ShowDialog() == DialogResult.OK)
+            {
 
+            }
+            else
+            {
+                LoadList();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Book myBook = (Book)booklist.SelectedItem;
+            frmEdit myForm = new frmEdit(myBook, "edit", cwid);
+            if (myForm.ShowDialog() == DialogResult.OK)
+            {
 
+            }
+            else
+            {
+                LoadList();
+            }
         }
 
         private void button1_Click_2(object sender, EventArgs e)
         {
+            Book myBook = (Book)booklist.SelectedItem;
+
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete?", "Delete", MessageBoxButtons.YesNo);
+
+            if(dialogResult == DialogResult.Yes)
+            {
+                BookFile.DeleteBook(myBook, cwid);
+                LoadList(); 
+            }
 
         }
 
@@ -92,5 +123,15 @@ namespace PA6
 
             }
         }
+
+        private void Returnbtn_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)booklist.SelectedItem;
+
+            myBook.copies++;
+            BookFile.SaveBook(myBook, cwid, "edit");
+            LoadList();
+        }
     }
+    
 }

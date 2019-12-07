@@ -195,6 +195,7 @@
             this.Returnbtn.TabIndex = 16;
             this.Returnbtn.Text = "Return";
             this.Returnbtn.UseVisualStyleBackColor = true;
+            this.Returnbtn.Click += new System.EventHandler(this.Returnbtn_Click);
             // 
             // Newbtn
             // 
@@ -212,7 +213,7 @@
             this.Addbtn.Name = "Addbtn";
             this.Addbtn.Size = new System.Drawing.Size(88, 43);
             this.Addbtn.TabIndex = 18;
-            this.Addbtn.Text = "Add";
+            this.Addbtn.Text = "Edit";
             this.Addbtn.UseVisualStyleBackColor = true;
             this.Addbtn.Click += new System.EventHandler(this.button2_Click);
             // 
